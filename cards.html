@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wings of Fire | Unofficial Magic: The Gathering Set</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background: #1b1d22;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: #eee;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+/* Four-wide responsive grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+}
+
+@media (max-width: 1200px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 850px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Card image styling */
+.card-image {
+    overflow: hidden;
+    border-radius: 14px;
+    background: #2d3138;
+    aspect-ratio: 0.715;
+    box-shadow:
+        0 2px 8px rgba(0,0,0,.45),
+        0 8px 20px rgba(0,0,0,.35);
+    transition:
+        transform .15s ease,
+        box-shadow .15s ease;
+}
+
+.card:hover .card-image {
+    transform: translateY(-3px);
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.45),
+        0 14px 30px rgba(0,0,0,.45);
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 2px;
+}
+
+.card-title {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.card-subtitle {
+    color: #b6bbc5;
+    font-size: 13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Wings of Fire | Unofficial Magic: The Gathering Set</h1>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/MoongladeBanjorabbit/wofmtg/blob/main/2.webp?raw=true" alt="Card 1">
+            </div>
+            <div class="card-info">
+                <div class="card-title">TEMP</div>
+                <div class="card-subtitle">R · #0005</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/2.webp?raw=true"" alt="Card 2">
+            </div>
+            <div class="card-info">
+                <div class="card-title">Temp</div>
+                <div class="card-subtitle">WOF · #0006</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/3.webp?raw=true"" alt="Card 3">
+            </div>
+            <div class="card-info">
+                <div class="card-title">temp</div>
+                <div class="card-subtitle">WOF · #0007</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/4.webp?raw=true"" alt="Card 4">
+            </div>
+            <div class="card-info">
+                <div class="card-title">temp</div>
+                <div class="card-subtitle">10E · #61</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/5.webp?raw=true"" alt="Card 5">
+            </div>
+            <div class="card-info">
+                <div class="card-title">temp</div>
+                <div class="card-subtitle">M14 · #96</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/6.webp?raw=true"" alt="Card 6">
+            </div>
+            <div class="card-info">
+                <div class="card-title">temp</div>
+                <div class="card-subtitle">M21 · #177</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/7.webp?raw=true"" alt="Card 7">
+            </div>
+            <div class="card-info">
+                <div class="card-title">gg</div>
+                <div class="card-subtitle">M12 · #73</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://github.com/LarryRMX/LarryRMX.github.io/blob/main/8.webp?raw=true"" alt="Card 8">
+            </div>
+            <div class="card-info">
+                <div class="card-title">at</div>
+                <div class="card-subtitle">M10 · #34</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
